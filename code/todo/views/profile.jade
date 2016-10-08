@@ -1,0 +1,21 @@
+extends /layout
+
+block userbox  
+
+block content
+  h1 Profile
+  ul(style="list-style-type:none;")
+    if (user.username)
+      li="username: " + user.username
+    if (user.name)
+      li="name: " + user.name
+    if (user.avatarUrl)
+      li
+        img(src=user.avatarUrl)
+
+
+
+  p
+    a(href="/logout") logout
+  
+  

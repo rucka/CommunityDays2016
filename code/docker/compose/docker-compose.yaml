@@ -1,0 +1,23 @@
+version: '2'
+services:
+  db:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=todo
+      - POSTGRES_PASSWORD=pwd
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - ./data:/var/lib/postgresql/data/pgdata
+
+  todo:
+    build: ../
+    depends_on:
+      - db
+    links:
+      - db
+    ports:
+      - "8000:8000"
+    environment:
+      - "DATABASE_URL=postgres://postgres:pwd@db:5432/todo"

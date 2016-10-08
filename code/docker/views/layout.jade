@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='/css/vendor/todomvc-common.css')
+    block title
+      title=title
+  body
+    block userbox
+      .right-corner
+        .user-box
+          if loggedUser
+            span User: 
+            span=loggedUser.username
+            br
+            a(href='/logout')="logout"
+          else
+            p
+              a(href='/login')="login"
+           
+    block header
+      header 
+        h1=title
+    
+    block content

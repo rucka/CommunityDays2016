@@ -1,0 +1,13 @@
+{
+  "env": {
+        "node": true,
+        "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": "standard",
+  "rules": {
+    "semi": 0,
+    "indent": 0,
+    "curly": 0
+  }
+}

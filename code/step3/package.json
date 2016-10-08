@@ -1,0 +1,28 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "The todo app showing some basic express stuff",
+  "main": "lib/server.js",
+  "scripts": {
+    "dev": "node node_modules/nodemon/bin/nodemon.js",
+    "compile": "node_modules/.bin/babel src --out-dir lib --source-maps"
+  },
+  "author": "Gianluca Carucci",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "jade": "1.11.0"
+  },
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-cli": "6.10.1",
+    "babel-eslint": "6.1.2",
+    "babel-preset-es2015": "6.9.0",
+    "eslint": "3.0.1",
+    "eslint-config-standard": "5.3.5",
+    "eslint-plugin-promise": "2.0.0",
+    "eslint-plugin-standard": "2.0.0",
+    "nodemon": "1.10.0"
+  }
+}

@@ -1,0 +1,33 @@
+extends /layout
+
+block userbox  
+
+block content
+  if (message)
+    h4.error=message
+  
+  .login-box
+    .login-form 
+      h4="login with credential"
+      form(action="/login", method="post")
+        ul
+          li.form-element
+            label="Username"
+            input(type="text" name="username")
+          li.form-element
+            label Password
+            input(type="password" name="password")
+          li.form-buttons
+            input(type="submit" value="Log In")
+      if (errorMessage)
+        h5(style="color:red")
+          span Error:&nbsp
+          error=errorMessage
+    .login-social
+      h4="login social"
+      ul
+        li
+          a(href="/facebook")="login with facebook"
+        li
+          a(href="/twitter")="login with twitter"
+  

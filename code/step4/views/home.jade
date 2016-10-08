@@ -1,0 +1,10 @@
+extends /layout
+  
+block content
+  if (message)
+    h4.error=message
+  ul
+    li
+      a(href="/") go to the Todo App
+    li
+      a(href="/specs") tests the rest api
