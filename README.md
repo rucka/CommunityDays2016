@@ -1,6 +1,6 @@
 # CommunityDays2016 / FutureDecoded
 
-Here both the slides and demos of [my session](Node.js for the .NET developer) (in italian language) at [Community Days 2016](http://www.communitydays.it/events/2016/web06/).
+Here both the slides and demos of my session [Node.js for the .NET developer](http://www.communitydays.it/events/2016/web06/) (in italian language) at [Community Days 2016](http://www.communitydays.it/events/2016/web06/).
 
 ## System requirements
 
