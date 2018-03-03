@@ -12,7 +12,7 @@ Before run each demo, ensure you have installed both node.js and npm executing t
 If something goes wrong, download your system node installer from the [node website](https://nodejs.org/en/download/).
 
 ## Slides
-The slide markup has been compatible with [Deckset app for OSX](http://www.decksetapp.com). If you need, you can give a try of the trial version available in the [website](http://www.decksetapp.com/try.html).
+The slide markup has been compatible with [Deckset app for OSX](http://www.decksetapp.com). If you need, you can give a try of the trial version available at the [website](http://www.decksetapp.com/try.html).
 
 The slides are also published on [slideshare](http://www.slideshare.net/rucka/nodejs-per-sviluppatori-net).
 
